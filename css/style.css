@@ -1,0 +1,26 @@
+* {box-sizing: border-box}
+	
+body {
+	background: #fff;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+@font-face {
+	font-family: 'Archer-Bold';
+    src: url('../fonts/Archer Bold.otf') format('opentype')        
+}
+#wrapper {
+	width: 1600px;
+	height: auto;
+	overflow: auto;
+	margin: 0 auto;
+}
+.content {
+	width: 1070px;
+	margin: 0 auto;
+}
+.logo {
+	font: 40px 'Archer-Bold', sans-serif;
+	color: #666666;
+}
